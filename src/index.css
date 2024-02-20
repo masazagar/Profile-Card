@@ -28,6 +28,12 @@ img {
   border: 5px solid black;
 }
 
+@media (max-width: 450px) {
+  img {
+    max-width: 100%;
+  }
+}
+
 .skills {
   max-width: 400px;
   display: flex;
